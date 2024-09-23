@@ -251,7 +251,7 @@ CMD ["/usr/sbin/init"]
 ---
 
 ## entrypoint.sh
-
+```
 #!/bin/bash
 
 # Function to create a user with SSH key
