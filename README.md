@@ -200,7 +200,7 @@ ENV ssh_port=22
 
 # Install necessary packages including systemd, SSH server, and sudo
 RUN dnf -y update && \
-    dnf -y install systemd openssh-server sudo curl && \
+    dnf -y install systemd openssh-server sudo curl ansible && \
     dnf clean all
 
 # Enable systemd and configure it to run properly within a container
